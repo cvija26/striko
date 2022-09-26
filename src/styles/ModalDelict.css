@@ -1,0 +1,69 @@
+.title-aqua{
+    color:aqua;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left:30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  
+}
+
+.wrapper{
+    display:flex;
+}
+.law{
+    
+
+    
+    color:aqua;
+    font-size: 15px;
+    font-weight: bold;
+}
+#note{
+    width:99%;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 25px;
+    outline: none;
+    border: none;
+    color: aqua;
+    background-color: #000033;
+}
+
+.main-wrapper{
+    display: flex;
+
+}
+
+.main-left-wrapper{
+    flex-basis:0 ;
+    flex-grow:1.7;
+   
+
+}
+
+.main-right-wrapper{
+    flex-basis:0 ;
+    flex-grow:1;
+    
+}
+
+.plate{
+    display: inline-block;
+    background-color: white;
+    color: aqua;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.change{
+    padding: 2px;
+    cursor: pointer;
+    margin-left: 3px;
+    font-size: 8px;
+    display: inline-block;
+    background-color: aqua;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}

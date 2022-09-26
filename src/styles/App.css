@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.status-logo{
+  width: 10px;
+  height: 10px;
+}
+
+
+.MuiTableRow-root:hover{
+  background-color:aqua !important;
+  cursor: pointer;
+}
+.container{
+  height: 100vh;
+  display:flex;
+  overflow: hidden;
+
+}
+.flex-1{
+  flex-basis:0 ;
+  flex-grow:1 ;
+ 
+}
+
+.container-1{
+  display: flex;
+  height: 100vh;
+  flex-basis:0 ;
+  flex-grow:1 ;
+}
+.container-2{
+  display: flex;
+  flex-basis:0 ;
+  flex-grow:1 ;
+  flex-direction: column;
+ 
+}
+
+.flex-2{
+  flex-basis:0 ;
+  flex-grow:1 ;
+}
+.flex-3{
+  flex-basis:0 ;
+  flex-grow:1 ;
+}
+
+.MuiTableCell-root{
+  padding: 5px !important;
+}
+.second-com{
+  display: flex;
+}
+.con-first{
+  margin-top: 20px;
+  background-color: #000033;
+  height: 180px;
+  width: 300px;
+  border-radius: 10px;
+}
+.btn-three{
+  margin: 0 auto;
+}
+.title{
+  color:white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+.title-2{
+  color:aqua;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.title-3{
+  color:white;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 20px;
+  text-align: center;
+}
+.num{
+  display: block;
+  color: aqua;
+  font-size: 13px;
+  margin-top: 15px;
+  text-align: center;
+}
+.number{
+  display: block;
+  color: aqua;
+  text-align: center;
+  margin-top: 30px;
+  
+  font-size: 25px;
+  font-weight: 700;
+}
+.right-con{
+  overflow: hidden !important;
+  flex-basis:0 ;
+  flex-grow: 1;
+}
+.most-con{
+  border-radius: 10px;
+  margin-top: 10px;;
+  height: 150px;
+  width: 300px;
+  background-color: #000033;
+}
+.left-con{
+  flex-basis:0 ;
+  flex-grow: 1.3;
+}
+
